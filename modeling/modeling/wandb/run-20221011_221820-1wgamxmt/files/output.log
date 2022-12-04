@@ -1,0 +1,45 @@
+Epoch: 0,loss: 0.40451
+Epoch: 100,loss: 0.21919
+Epoch: 200,loss: 0.11704
+Epoch: 300,loss: 0.05945
+Epoch: 400,loss: 0.02749
+Epoch: 500,loss: 0.01125
+Epoch: 600,loss: 0.00400
+Epoch: 700,loss: 0.00123
+Epoch: 800,loss: 0.00032
+Epoch: 900,loss: 0.00007
+0
+27
+0.0
+0  :  maxIndx 3 y_origin[i] 2
+1  :  maxIndx 3 y_origin[i] 2
+2  :  maxIndx 3 y_origin[i] 2
+3  :  maxIndx 3 y_origin[i] 2
+4  :  maxIndx 3 y_origin[i] 2
+5  :  maxIndx 3 y_origin[i] 2
+6  :  maxIndx 3 y_origin[i] 2
+7  :  maxIndx 3 y_origin[i] 2
+8  :  maxIndx 3 y_origin[i] 2
+9  :  maxIndx 3 y_origin[i] 2
+10  :  maxIndx 3 y_origin[i] 2
+11  :  maxIndx 3 y_origin[i] 2
+12  :  maxIndx 3 y_origin[i] 2
+13  :  maxIndx 3 y_origin[i] 2
+14  :  maxIndx 3 y_origin[i] 2
+15  :  maxIndx 3 y_origin[i] 2
+16  :  maxIndx 3 y_origin[i] 2
+17  :  maxIndx 3 y_origin[i] 2
+18  :  maxIndx 3 y_origin[i] 2
+19  :  maxIndx 3 y_origin[i] 2
+20  :  maxIndx 3 y_origin[i] 2
+21  :  maxIndx 3 y_origin[i] 2
+22  :  maxIndx 3 y_origin[i] 2
+23  :  maxIndx 3 y_origin[i] 2
+24  :  maxIndx 3 y_origin[i] 2
+25  :  maxIndx 3 y_origin[i] 2
+26  :  maxIndx 3 y_origin[i] 2
+0
+27
+0.0
+Training Shape torch.Size([57, 1, 7]) torch.Size([57, 4])
+Testing Shape torch.Size([27, 1, 7]) torch.Size([27, 4])

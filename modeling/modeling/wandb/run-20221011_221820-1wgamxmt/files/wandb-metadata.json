@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-10-11T13:18:26.911213",
+    "startedAt": "2022-10-11T13:18:20.629728",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-9MV2LFV",
+    "username": "Lab01",
+    "executable": "C:\\Users\\Lab01\\anaconda3\\python.exe"
+}

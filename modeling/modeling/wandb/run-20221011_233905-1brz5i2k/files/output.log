@@ -1,0 +1,50 @@
+Requirement already satisfied: wandb in c:\users\lab01\anaconda3\lib\site-packages (0.13.4)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (7.1.2)
+Requirement already satisfied: setproctitle in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (1.3.2)
+Requirement already satisfied: GitPython>=1.0.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (3.1.28)
+Requirement already satisfied: sentry-sdk>=1.0.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (1.9.10)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (5.8.0)
+Requirement already satisfied: PyYAML in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (5.4.1)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: setuptools in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (52.0.0.post20210125)
+Requirement already satisfied: shortuuid>=0.5.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (1.0.9)
+Requirement already satisfied: pathtools in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (0.1.2)
+Requirement already satisfied: six>=1.13.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (1.16.0)
+Requirement already satisfied: promise<3,>=2.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (2.3)
+Requirement already satisfied: protobuf!=4.0.*,!=4.21.0,<5,>=3.12.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (3.19.6)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\lab01\anaconda3\lib\site-packages (from wandb) (2.25.1)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\lab01\anaconda3\lib\site-packages (from GitPython>=1.0.0->wandb) (4.0.9)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\lab01\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb) (5.0.0)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\lab01\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\lab01\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2020.12.5)
+Requirement already satisfied: chardet<5,>=3.0.2 in c:\users\lab01\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (4.0.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\lab01\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (1.26.12)
+Date              int64
+ID               object
+height          float64
+weight          float64
+step_count      float64
+burn_calorie    float64
+eat_calorie     float64
+sleep           float64
+bmi             float64
+bmi_target        int64
+dtype: object
+       height  weight  step_count  burn_calorie  eat_calorie  sleep        bmi
+0       148.0    45.0        72.0           0.0          0.0    0.0  20.544193
+1       148.0    45.0        72.0           0.0          0.0    0.0  20.544193
+2       148.0    45.0        72.0           0.0          0.0    0.0  20.544193
+3       148.0    45.0        72.0           0.0          0.0    0.0  20.544193
+4       148.0    45.0        72.0           0.0          0.0    0.0  20.544193
+...       ...     ...         ...           ...          ...    ...        ...
+27043   153.0    68.0         0.0           0.0          0.0    0.0  29.048656
+27044   153.0    68.0         0.0           0.0          0.0    0.0  29.048656
+27045   153.0    68.0         0.0           0.0          0.0    0.0  29.048656
+27046   153.0    68.0         0.0           0.0          0.0    0.0  29.048656
+27047   153.0    68.0         0.0           0.0          0.0    0.0  29.048656
+[27048 rows x 7 columns]
+Training Shape (57, 7) (57, 4)
+Testing Shape (27, 7) (27, 4)
+Training Shape torch.Size([57, 1, 7]) torch.Size([57, 4])
+
+Testing Shape torch.Size([27, 1, 7]) torch.Size([27, 4])
